@@ -1,5 +1,5 @@
 function tick() {
-    let element (
+    let element = (
     <div>
         <h1>Hi</h1>
         <h2>it is {new Date().toLocaleDateString()}</h2>
