@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function tick() {
     const element = (
       <div>
-        <h1>Hello, world! some exapmles about react </h1>
+        <h1>some exapmle about react </h1>
         <h2>It is {new Date().toLocaleTimeString()}.</h2>
       </div>
     );
