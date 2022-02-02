@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import ticking from './ticking'; 
-import titac from './tictac'
+import reportWebVitals from './reportWebVitals'; 
+import ticking from './ticking'
 
 ReactDOM.render(
   <React.StrictMode>
     <ticking />
-    <titac />
   </React.StrictMode>,
   document.getElementById('root')
 );
