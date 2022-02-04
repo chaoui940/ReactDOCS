@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals'; 
 import ticking from './ticking'
+import tictac from './tictac'
 
 ReactDOM.render(
   <React.StrictMode>
     <ticking />
+    <tictac />
   </React.StrictMode>,
   document.getElementById('root')
 );
